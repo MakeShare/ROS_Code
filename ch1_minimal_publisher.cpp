@@ -20,7 +20,6 @@ int main(int argc, char **argv) {
 		// 本循环没有休眠设定, 将充分使用CPU时间
 		// 杀鸡用牛刀时非常浪费的行为！
 		input_float.data = input_float.data + 0.001; //每次迭代加0.001
-		my_publisher_object.publish(input_float); // 向话题发布数据类型为 Float64 的信息
-		"topic1"
+		my_publisher_object.publish(input_float); // 向话题发布数据类型为 Float64 的信息"topic1"
 	}
 }
