@@ -7,7 +7,10 @@ int main(int argc, char **argv) {
 	//"topic1" 是我们要发布的话题名
 	// 数字变量"1" 代表缓冲区的大小为1，需要网络备份可以将数值调大
 	
-	std_msgs::Float64 input_float; //创建一个类型为 "Float64"的变量,
+	std_msgs::Float64 input_float;
+	std_msgs::Float64 input_float;
+	std_msgs::Float64 input_float;
+	std_msgs::Float64 input_float;//创建一个类型为 "Float64"的变量,
 	// 该类型的定义参见: /opt/ros/indigo/share/std_msgs
 	// 所有在ROS话题下发布的信息都必须有一个预定义的格式（如数据类型），
 	// 这样订阅者才知道如何解读数据流
